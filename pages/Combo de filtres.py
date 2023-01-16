@@ -12,7 +12,7 @@ st.title('Combo de filtres')
 
 
 # import dataset
-df_all = pd.read_csv("ivan_cleaning_2", sep = "\t", index_col=0)
+df_all = pd.read_csv("ivan_cleaning_2.csv", sep = "\t", index_col=0)
 #------------------------------------------------------------------------------------------------------------------
 choix = st.select_slider('Avec qui venez-vous ?', options=['En famille', 'Seul','En couple', "Avec les copains de l'EHPAD", 'Entre potes'])
 #st.write('Vous avez indiquer venir :', choix)
