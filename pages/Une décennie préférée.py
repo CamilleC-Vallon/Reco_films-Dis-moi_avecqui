@@ -13,7 +13,7 @@ from PIL import Image
 st.title('Vous préférez faire un voyage dans le temps ?')
 decennie = Image.open('temps.jpg')
 
-df_all = pd.read_csv('ivan_cleaning_2', sep='\t', index_col = 0 ) 
+df_all = pd.read_csv('ivan_cleaning_2.csv', sep='\t', index_col = 0 ) 
 #import avec index_col = 0 pour ne pas avoir de nouvelle colonne unnamed : 0 
 
 # une valeur exceptionnelle supérieure à supprimer : pas plus de 4h
